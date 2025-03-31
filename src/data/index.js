@@ -1,9 +1,3 @@
-import {
-  algorithms,
-  devnotes,
-  oscs,
-} from "../assets";
-
 export const navLinks = [
   {
     id: "hero",
@@ -25,67 +19,78 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
+    title: "Full Stack Development Intern",
+    company_name: "CodeCraft Studios",
+    date: "June 2024 - November 2024",
+    details: [
+      "Contributed to the development of a high-performing <span style='color: white;'>e-commerce platform</span>, boosting online sales.",
+      "Implemented <span style='color: white;'>responsive design techniques</span>, increasing user engagement by 25%.",
+      "Collaborated with senior developers to refine <span style='color: white;'>backend functionalities</span> for improved efficiency.",
+    ],
+  },
+  {
+    title: "Frontend Development Intern",
+    company_name: "Sam's Developers",
+    date: "October 2023 - March 2024",
+    details: [
+      "Assisted in <span style='color: white;'>redesigning websites</span> to enhance user experience and engagement.",
+      "Optimized frontend performance, reducing <span style='color: white;'>load times by 20%</span>.",
+      "Ensured <span style='color: white;'>accessibility compliance</span>, improving inclusivity for all users.",
+    ],
+  },
+  {
+    title: "Freelance Developer",
     company_name: "Self Employed",
-    date: "2016 - Present",
+    date: "2023 - Present",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "Developed custom <span style='color: white;'>web applications</span> for various clients, enhancing online presence.",
+      "Built <span style='color: white;'>interactive and scalable solutions</span> using React.js, Next.js, and Tailwind CSS.",
+      "Integrated <span style='color: white;'>secure authentication and real-time features</span> into client projects.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    title: "Bachelor of Information Technology",
+    company_name: "University of Punjab",
+    date: "2025",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
-    details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
-    ],
-  },
-  {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
-    details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+      "Specialized in <span style='color: white;'>Full Stack Development</span> with a minor in Mathematics.",
+      "Worked on AI-powered legal assistant project, <span style='color: white;'>LawBotics</span>, utilizing NLP and machine learning.",
+      "Developed <span style='color: white;'>LiveDocs</span>, a real-time collaborative document editing platform.",
     ],
   },
 ];
 
 const portfolio = [
   {
-    name: "Open Source Computer Science Repo",
+    name: "3legant",
     description:
-      "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
-    image: oscs,
+      "3legant is a modern e-commerce platform built with the MERN stack, featuring a responsive React 19 frontend with Vite, Tailwind CSS, and Radix UI. It offers a seamless shopping experience with product filtering, a shopping cart, and user authentication, while the Node.js backend ensures secure API endpoints, JWT authentication, and full CRUD functionality.",
+    image: "/project/3legant.jpeg",
   },
   {
-    name: "Dev Notes",
+    name: "Budgify",
     description:
-      "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
-    image: devnotes,
+      "Budgify is a modern personal finance dashboard built with Next.js, offering real-time financial tracking, analytics, and visualization. It features income & expense tracking, smart categorization, interactive charts, and multi-account support. With end-to-end encryption and biometric authentication, Budgify ensures secure and seamless personal finance management.",
+    image: "/project/budgify.jpeg",
   },
   {
-    name: "Visually Understanding Algorithms",
+    name: "LiveDocs",
     description:
-      "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
-    image: algorithms,
+      "LiveDocs is a collaborative document editor inspired by Google Docs. Built with Next.js for the user interface, Liveblocks for real-time functionality, and styled using TailwindCSS, this project highlights the developer's expertise in building real-time, collaborative applications.",
+    image: "/project/live-docs.jpeg",
+  },
+  {
+    name: "Algorun",
+    description:
+      "Algorun is a powerful online IDE built with Next.js 15, Convex, Clerk, and TypeScript, offering a seamless multi-language coding experience. It provides smart output handling, customizable themes, and community-driven code-sharing, making it the perfect choice for developers looking for flexibility and efficiency.",
+    image: "/project/algorun.jpeg",
+  },
+  {
+    name: "CarePulse",
+    description:
+      "CarePulse is a modern doctor appointment scheduling platform built with Next.js, Tailwind CSS, and Appwrite. It provides seamless appointment booking for users, an admin panel for managing doctors and schedules, and a user-friendly experience for healthcare professionals.",
+    image: "/project/care-pulse.jpeg",
   },
 ];
 
 export { experiences, portfolio };
-
